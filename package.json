@@ -12,6 +12,7 @@
   "dependencies": {
     "@pinia/nuxt": "^0.5.1",
     "@popperjs/core": "^2.11.8",
+    "axios": "^1.7.2",
     "dayjs": "^1.11.11",
     "nuxt": "^3.11.2",
     "pinia": "^2.1.7",
