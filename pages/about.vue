@@ -51,6 +51,21 @@ useHead({
 <template>
   <AboutHeader />
   <div>Page: about</div>
+  <NuxtLink to="/about">
+    About Index
+  </NuxtLink>
+
+  <NuxtLink to="/about/info">
+    About Info
+  </NuxtLink>
+
+  <NuxtLink to="/about/service">
+    About Service
+  </NuxtLink>
+
+  <main>
+    <NuxtPage />
+  </main>
   <AboutFooter />
 </template>
 
